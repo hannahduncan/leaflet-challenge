@@ -46,7 +46,7 @@ d3.json(url, function(data) {
             color: colorPicker(depths[i]),
             fillColor: colorPicker(depths[i]),
             fillOpacity: .8,
-            radius: mags[i] * 10000
+            radius: mags[i] * 15000
         }).bindPopup(
             `<p> Magnitude: ${mags[i]} <br>
             Location: (${coordinates[i]}) <br>
